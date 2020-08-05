@@ -1,0 +1,39 @@
+.media-image{
+	background-image: url("../block.png");
+	min-height: 568px;
+	background-size: contain;
+	
+}
+.icon-benefits{
+	margin-top: 1.5em;
+	margin-right: 2em;
+}
+.details-name{
+	font-weight: 500;
+	font-size: 24px;
+	padding-bottom: 1.2em;
+}
+.details-price{
+	font-weight: 600;
+	font-size: 28px;
+	padding-right: 1.1em;
+}
+.details-old-price{
+	font-weight: 500;
+	font-size: 18px;
+	text-decoration-line: line-through;
+	color: #82828B
+}
+.couter-title{
+	padding-top: 2.5em;
+	padding-bottom: 1.5em;
+}
+.color-title{
+	padding-top: 2.5em;
+	padding-bottom: 1.5em;
+}
+.details-buy{
+	padding-top: 3.4em ;
+	padding-bottom: 3.7em;
+	
+}

@@ -1,0 +1,86 @@
+.button {
+    background-color: transparent;
+    color: inherit;
+    border-radius: 4px;
+    border: none;
+    padding: 14px 10px;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    user-select: none;
+    vertical-align: middle;
+    min-height: 56px;
+  }
+  .button-primary,
+  .button-secondary {
+    background-color: #595cff;
+    color: #fff;
+	 min-width: 200px;
+	 min-height: 56px;
+  }
+  .button-secondary{
+    background-color: #595cff;
+    color: #fff;
+    fill: white;
+    min-width: 138px;
+
+  }
+  .button:hover,
+  .button:focus,
+  .button:active {
+    opacity: 0.3;
+    color: white;
+    outline: none;
+  }
+  
+  .icon-arrow {
+    margin-left: 6px;
+    margin-right: 6px;
+    width: 20px;
+    
+  }   
+  .button-outline-primary,
+  .button-outline-secondary {
+    min-width: 138px;
+    border: 1px solid #595cff;
+    border-radius: 4px;
+    color: black;
+    background-color: transparent;
+  }
+  .button-outline-secondary{
+    min-width: 200px;
+  }
+  
+  .button-outline-primary:hover,
+  .button-outline-secondary:hover {
+    background-color: #595cff;
+    color: #fff;
+    outline: none;
+  }
+  
+  .button-link:hover,
+  .button-link:focus,
+  .button-link:active {
+    color: #595cff;
+  }
+  
+  .button-icon {
+	 min-width: 56px;
+	 min-height: 56px;    
+    padding: 11px;
+    border: 1px solid #E6E6EB
+  }
+   
+  .icon {
+	 font-size: 2em;
+	 height: 1em;
+    
+  }
+  
+  .button_rounted {
+    border-radius: 50%;
+  }

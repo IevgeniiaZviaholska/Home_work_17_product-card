@@ -1,0 +1,75 @@
+.hero {
+    position: relative;
+  }
+  .hero__medium {
+    min-height: 500px;
+  }
+  
+  .hero__container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 500px;
+    padding: 50px;
+    align-items: flex-end;
+    justify-content: space-between;
+    
+  }
+  .preview a{
+    text-decoration: none;
+    color: black;
+  }
+  .hero__container-start{
+    padding: 50px;
+  }
+  
+  .hero-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .hero__background {
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .preview >:hover,
+  .preview >:focus,
+  .preview >:active{
+    opacity: 0.3;
+    transition: 0.25s;
+
+  }
+  
+  .hero__foreground {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .hero__title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    color: #000000;
+    line-height: 38px;
+
+  }
+  
+  .hero__description {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  
